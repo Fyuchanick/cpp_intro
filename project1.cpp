@@ -12,7 +12,7 @@ int main(){
 	 string noun3;
 	 string noun4;
 	 string presverb1;
-	 string noun5;
+	 string plunoun2;
 	 cout<<"Please enter a noun: "<<endl;
 	 cin>>noun1;
 	 cout<<"Please enter another noun: "<<endl;
@@ -31,7 +31,8 @@ int main(){
 	 cin>>noun4;
 	 cout<<"Please enter a present-tense verb: "<<endl;
 	 cin>>presverb1;
-	 cout<<"Please enter a third noun"<<endl;
+	 cout<<"Please enter another plural noun"<<endl;
+	 cin>>plunoun2;
 	 cout<<"According to all known laws of "<<noun1<<", it is physically impossible for a "<<noun2<<" to "<<verb1<<". It's "<<plunoun1<<" are to small to get its "<<adj1<<" "<<adj2<<" "<<noun3<<" off the ground. The "
-	 <<noun4<<", of course, "<<presverb1<<" anyway, because "<<noun1<<"s don't care what ";
+	 <<noun4<<", of course, "<<presverb1<<" anyway, because "<<noun1<<"s don't care what "<<plunoun2<<" think is impossible.";
 }
